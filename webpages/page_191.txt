@@ -1,0 +1,2 @@
+
+ 百度一下，你就知道                     新闻 hao123 地图 视频 贴吧  登录  document.write('<a href="http://www.baidu.com/bdorz/login.gif?login&tpl=mn&u='+ encodeURIComponent(window.location.href+ (window.location.search === "" ? "?" : "&")+ "bdorz_come=1")+ '" name="tj_login" class="lb">登录</a>'); 更多产品       关于百度 About Baidu  ©2017 Baidu 使用百度前必读  意见反馈 京ICP证030173号        
