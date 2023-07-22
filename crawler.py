@@ -22,6 +22,8 @@ def crawl_website(url):
     # 遍历每个链接并保存内容
     for i, link in enumerate(links):
         href = link.get('href')
+        href = url + href
+        print(href)
         if href and href.startswith('http'):
             try:
                 page_response = requests.get(href)
@@ -35,4 +37,4 @@ def crawl_website(url):
                 print(f"Error while trying to access {href}: {e}")
 
 # 爬取网站
-crawl_website('http://www.gaozhanzx.com')
+crawl_website('http://www.gaozhanzx.com/')
